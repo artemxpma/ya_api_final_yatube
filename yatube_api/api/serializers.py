@@ -16,7 +16,7 @@ class GroupSerializer(serializers.ModelSerializer):
 
 
 class PostSerializer(serializers.ModelSerializer):
-     """
+    """
     Serializer for Post model.
     """
     author = serializers.SlugRelatedField(slug_field='username',
